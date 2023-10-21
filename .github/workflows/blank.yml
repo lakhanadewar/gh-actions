@@ -4,8 +4,8 @@ Jobs:
   First-Job:
     runs-on: ubuntu-latest
     steps:
-      -name: first step
+      - name: first step
         run: echo "Hello World ! How are You"
-      -name: Second step
+      - name: Second step
         run: echo "Bye Done"
   
